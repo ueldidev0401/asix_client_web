@@ -2,6 +2,9 @@
 // fetched. CIDs are derived from the content they represent, so it is safe to do
 // so without having to worry about invalidating the cache.
 
+import { DH_UNABLE_TO_CHECK_GENERATOR } from "constants"
+import { url } from "inspector"
+
 // Limit of the number of CIDs to store.
 const MAX_SIZE = 2000
 
